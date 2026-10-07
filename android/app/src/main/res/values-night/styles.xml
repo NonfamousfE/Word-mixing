@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认浅色主题，和电脑端行为一致：不再强制全黑 -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#2F8F5B</item>
+        <item name="android:colorAccent">#2F8F5B</item>
+        <item name="android:statusBarColor">#2F8F5B</item>
+        <item name="android:windowBackground">#F5F6F8</item>
+    </style>
+</resources>

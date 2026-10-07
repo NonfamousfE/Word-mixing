@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 用系统自带的 Material 主题，不引 AppCompat：
+         少一层依赖，而且外观跟着系统走，深浅色自动适配。 -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#2F8F5B</item>
+        <item name="android:colorAccent">#2F8F5B</item>
+        <item name="android:statusBarColor">#2F8F5B</item>
+        <item name="android:windowBackground">#F5F6F8</item>
+    </style>
+</resources>

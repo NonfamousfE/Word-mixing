@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行期数据（用户词库，不入库）
+/data/
+/dist/
+/build/runtime-python/
+/build/out-py/
+/build/sea/
+
+# 数据库文件与服务器运行期数据
+*.db
+*.db-journal
+*.sqlite
+/server/data/
+/server/wordmix.db
+
+# 前端依赖与产物
+node_modules/
+/web/node_modules/
+/web/dist/
+
+# 测试与调试的临时目录
+/tmp-*/
+tmp*
+scratch/
+
+# 编译中间产物
+build/launcher.c
+*.res
+*.obj
+
+# 凭据与敏感文件：绝对不能进版本库
+client.env
+*.env
+sync/state.json
+build/dist-deploy/
+known_hosts
+*.pyz
+
+# Android
+.gradle/
+/android/.gradle/
+/android/build/
+/android/app/build/
+local.properties
+*.hprof

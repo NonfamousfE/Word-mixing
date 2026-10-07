@@ -1,0 +1,10 @@
+# 统一换行：仓库里一律 LF，检出时由各平台自行处理。
+# 这个项目以后可能要接安卓端，换行不统一会让 diff 全是噪音。
+* text=auto eol=lf
+
+# 二进制资源不要做任何换行/文本处理
+*.gz   binary
+*.png  binary
+*.ico  binary
+*.xlsx binary
+*.exe  binary
